@@ -16,12 +16,13 @@ set title
 ````jsx
 import React, { Component } from 'react'
 import IgrootContainer from 'igroot-container/src/index'
-//演示使用  正式环境请使用,右侧代码 import IgrootContainer from 'igroot-container'
+// 演示使用  正式环境请使用
+// import IgrootContainer from 'igroot-container'
 
 class App extends Component {
   render() {
     return (
-      <IgrootContainer style={{ width: 400}} title="标题">
+      <IgrootContainer title="标题">
         内容
       </IgrootContainer>
     )

@@ -1,5 +1,5 @@
 ---
-order: 0
+order: 1
 title:
   zh-CN: 加载
   en-US: Loading
@@ -15,13 +15,15 @@ set loading
 
 ````jsx
 import React, { Component } from 'react'
-import UpgradeSelect from 'igroot-container/src/index'
+import IgrootContainer from 'igroot-container/src/index'
+// 演示使用  正式环境请使用
+// import IgrootContainer from 'igroot-container'
 
 
 class App extends Component {
   render() {
     return (
-      <IgrootContainer style={{ width: 400}} loading={true}>
+      <IgrootContainer loading={true}>
         内容
       </IgrootContainer>
     )

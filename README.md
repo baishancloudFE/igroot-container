@@ -4,13 +4,13 @@
 需要处理模块的数据情况的时候
 
 ## 安装方法
-```html
+````jsx
 sl add -c igroot-container
 ```
 
 ## API
 
-```html
+````jsx
 <IgrootContainer  loading={true}>
   <div>内容</div>
 </IgrootContainer>

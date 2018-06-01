@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Spin } from 'igroot'
-import './IgrootContainer.scss'
+import './IgrootContainer.css'
 
 
 export default class IgrootContainer extends Component {

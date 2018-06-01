@@ -1,18 +1,17 @@
 @charset "UTF-8";
-
 .igroot-container {
   background-color: rgb(255, 255, 255);
   border-radius: 6px;
   margin-bottom: 20px;
   overflow: hidden;
   border: 1px solid #f1f1f1;
+}
 
-  h4 {
-    margin: 10px;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 24px;
-  }
+.igroot-container .h4 {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
 }
 
 .igroot-container-content {
@@ -31,20 +30,20 @@
   height: 100%;
   padding: 0;
   min-height: 200px;
+}
 
-  .loading-mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.1);
-  }
+.igroot-loading-container .loading-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
 
-  .loading-icon {
-    position: absolute;
-    top: 49%;
-    left: 49%;
-  }
+.igroot-loading-container .loading-icon {
+  position: absolute;
+  top: 49%;
+  left: 49%;
 }
